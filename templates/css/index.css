@@ -1,3 +1,4 @@
+@import url('https://fonts.cdnfonts.com/css/kayak-sans');
 *{
     padding: 0;
     margin: 0;
@@ -11,5 +12,53 @@ main{
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
+    
+}
+main h1{
+    font-family: 'Kayak Sans';
+    margin-left: 100px;
+    margin-top: 450px;
+    font-size: 3vw;
+}
+nav img{
+    width: 130px;
+    padding-left: 30px;
+    padding-top: 30px;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    
+
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    align-items: center; 
+    display: flex;
+    justify-content: center;
+
 }
 
+#nav-button{
+    display: flex;
+    margin:auto;
+    align-items: center;
+    }
+
+#nav-button a{
+    padding-top: 4.8vh;
+    padding-left: 15vw;
+    padding-right: 10vw;
+    font-size: 1.3vw;
+    font-family: 'Kayak Sans';
+}
+
+#nav-button a:hover{
+    font-size: 1.4vw;
+    transition: 1.2s;
+    text-decoration: underline;
+    text-shadow: 0px 2px 30px rgba(0, 0, 0, 5);
+
+}
