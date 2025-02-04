@@ -2,7 +2,13 @@
     padding: 0;
     margin: 0;
 }
-#presentation{
-    width: 100vw;
-    height: 100vh;
+
+
+main{
+    margin: 0; /* Remove a margem padrão */
+    height: 100vh; /* Define a altura do body como 100% da altura da viewport */
+    background-image: url("/templates/img/fundo\ pica.svg"); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Faz a imagem cobrir toda a área */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
 }
