@@ -8,7 +8,7 @@
 main{
     margin: 0; 
     height: 100vh; 
-    background-image: url('/templates/img/fundo_pica.svg'); 
+    background-image: url('./img/fundo_pica.svg'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
