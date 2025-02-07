@@ -3,10 +3,14 @@
     padding: 0;
     margin: 0;
 }
-
+body{
+    max-width:100%;
+    overflow-x: hidden;
+}
 
 main{
     margin: 0; 
+    width: 99.2vw;
     height: 100vh; 
     background-image: url('../img/fundo_pica.svg'); 
     background-size: cover; 
@@ -16,14 +20,14 @@ main{
 }
 main h1{
     font-family: 'Kayak Sans';
-    margin-left: 100px;
-    margin-top: 450px;
+    margin-left: 5vw;
+    margin-top: 35vh;
     font-size: 3vw;
 }
 nav img{
     width: 130px;
-    padding-left: 30px;
-    padding-top: 30px;
+    padding-left: 5vw;
+    padding-top: 5vh;
 
 }
 nav{
@@ -43,14 +47,12 @@ nav a{
 
 #nav-button{
     display: flex;
-    margin:auto;
     align-items: center;
-    }
+    }   
 
 #nav-button a{
     padding-top: 4.8vh;
-    padding-left: 15vw;
-    padding-right: 10vw;
+    padding-left: 20vw;
     font-size: 1.3vw;
     font-family: 'Kayak Sans';
 }
@@ -63,7 +65,7 @@ nav a{
 
 }
 article{
-    width: 100vw;
+    width: 99.2vw;
     height: 100vh;
     display: flex;
     background-size: cover; 
@@ -72,11 +74,11 @@ article{
 #container-blue{
     background-color: #236ED9;
     height: 100vh;
-    width: 40vw;
+    width: 40%;
     box-shadow: 2px 0px 15px rgba(0, 0, 0, 0.3);
 }
 #container-grey{
-    width: 59.2vw;
+    width: 60%;
     height: 100vh;
     background-color: #424242;
     box-shadow: 2px 0px 15px rgba(0, 0, 0, 0.3);
