@@ -115,8 +115,14 @@ article{
     margin: auto;
     border-radius: 20px;
 }
-footer{
+footer{  
     background-color: #000000;
     width: 99.2vw;
     height: 5vh;
 }
+
+footer a{
+    padding-right: 5vw;
+    color: #ffff;
+    text-decoration: none;
+  }
