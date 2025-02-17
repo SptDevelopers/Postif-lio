@@ -16,9 +16,6 @@ main{
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
-    
-}
-main h1{
     font-family: 'Kayak Sans';
     margin-left: 5vw;
     margin-top: 35vh;
@@ -105,20 +102,77 @@ article{
     width: 99.2vw;
     background-color: #236ED9;
     display: flex;
-    align-items: center;
-}
+    }
 
 #container-contratos-grey{
+    font-family: 'Kayak Sans';
+    color: azure;
     width: 70vw;
     height: 70vh;
     background-color: #424242;
     margin: auto;
     border-radius: 20px;
 }
+#title{
+
+    font-size: 2vw;
+    display: flex;
+    
+}
+#title h3{
+    margin: auto;
+}
+#contratos{
+    display: flex;
+    margin-top: 6vh;
+    
+}
+#contratos h4{
+    margin-left: 11vw;
+    font-size: 1.2vw;
+}
+#vantagens{
+    padding-top: 5vh;
+    display: flex;
+    font-size: 0.9vw;
+    margin-left: 11vw;
+}
+#vantagens ul{
+}
+#vantagens li{
+    padding-bottom: 1.4vh;
+}
+#pacote-hospedagem{
+    margin-left: 10vw
+}
+#pacote-manutencao{
+    margin-left: 12vw
+}
+
+#button{
+    display: flex;
+    justify-content: center;
+    margin-top: 8vh;
+}
+button {
+    font: 25px Arial, sans-serif;
+    color:rgb(255, 255, 255);
+    border: none;
+    background-color: #236ed9;
+    border-radius: 25px;
+    outline: none;
+    padding: 15px 45px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    box-shadow: -2px 3px 0px 0px rgba(0,0,0,0.2);
+  }
+  
+button:hover{
+    background-color:rgb(27, 92, 182);
+}
 footer{  
     background-color: #000000;
     width: 99.2vw;
-    height: 5vh;
 }
 
 footer a{
