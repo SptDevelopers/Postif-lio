@@ -174,9 +174,8 @@ button:hover{
     background-color:rgb(27, 92, 182);
 }
 footer{  
-    padding-top: 2.5vh;
-    padding-bottom: 2.5vh;
     background-color: #000000;
+    height : 12vh;
     width: 99.2vw;
 }
 
